@@ -1,0 +1,317 @@
+.sliderBackgroundContainer {
+  position: absolute;
+  overflow: hidden;
+}
+
+.sliderBackgroundContainer .sliderBackground {
+  height: 100vh;
+  width: 100vw;
+}
+
+.sliderBackgroundContainer .sliderBackground .itemSliderBackground {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.containerScreen {
+  height: 100vh;
+  z-index: 9;
+  position: absolute;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.containerScreen .headerSection {
+  width: 100%;
+  background: white;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 1em 0;
+}
+
+.containerScreen .headerSection .contentHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100% !important;
+}
+
+.containerScreen .headerSection .contentHeader .logoHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerScreen .headerSection .contentHeader .logoHeader img {
+  width: 92px;
+}
+
+.containerScreen .headerSection .contentHeader .tanggalHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerScreen .headerSection .contentHeader .tanggalHeader * {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.containerScreen .bodySection .contentBody .contentTitle {
+  padding-top: 2em;
+}
+
+.containerScreen .bodySection .contentBody .contentTitle .bodyTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerScreen .bodySection .contentBody .contentTitle .bodyTitle * {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+}
+
+.containerScreen .bodySection .contentBody .contentTitle .bodySubTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerScreen .bodySection .contentBody .contentTitle .bodySubTitle * {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  padding: 0 1em;
+}
+
+.containerScreen .bodySection .contentBody .contentTitle .lineTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerScreen .bodySection .contentBody .contentTitle .lineTitle .line {
+  background: yellow;
+  width: 60px;
+  height: 4px;
+}
+
+.containerScreen .bodySection .contentBody .contentMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5em;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .personDisplay .personDisplayItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 8em;
+  margin-bottom: 3em;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .personDisplay .personDisplayItem img {
+  height: 100%;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .personDisplay .personDisplayItem .personDisplayDetail {
+  color: white;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .personDisplay .personDisplayItem .personDisplayDetail .detailName,
+.containerScreen .bodySection .contentBody .contentMain .personDisplay .personDisplayItem .personDisplayDetail .detailSch {
+  height: 50%;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .personDisplay .personDisplayItem .personDisplayDetail .detailSch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .personDisplay .personDisplayItem .personDisplayDetail .detailSch .detail {
+  width: 100%;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .personDisplay .personDisplayItem .personDisplayDetail .detailSch .leftLine {
+  height: 50%;
+  background: yellow;
+  width: 8px;
+  margin-right: 1em;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .personDisplay .personDisplayItem .personDisplayDetail .detailSch .leftLineNotAvail {
+  background: #FF6E6E !important;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .video_wrapper {
+  width: 560px;
+  position: relative;
+  background-color: #000;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .video_wrapper_full {
+  padding-top: 315px;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoIframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoPoster {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(http://c.fastcompany.net/multisite_files/cocreate/imagecache/inline-large/inline/2013/01/1682283-inline-inline-2-music-veteran-amani-duncan-on-marketing-cf-martin-the-worlds-oldest-guitar-maker.jpg);
+  background-size: 100%;
+  border: none;
+  text-indent: -999em;
+  overflow: hidden;
+  opacity: 1;
+  -webkit-transition: opacity 800ms, height 0s;
+  transition: opacity 800ms, height 0s;
+  -webkit-transition-delay: 0s, 0s;
+  transition-delay: 0s, 0s;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoPoster:hover {
+  cursor: pointer;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoPoster:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  margin: -40px 0 0 -40px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+  -webkit-transition: border-color 300ms;
+  transition: border-color 300ms;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoPoster:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin: -20px 0 0 -10px;
+  border-left: 40px solid #fff;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  -webkit-transition: border-color 300ms;
+  transition: border-color 300ms;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoPoster:hover:before,
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoPoster:focus:before {
+  border-color: #d1cdcd;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoPoster:hover:after,
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoPoster:focus:after {
+  border-left-color: #646363;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoWrapperActive .videoPoster {
+  opacity: 0;
+  height: 0;
+  -webkit-transition-delay: 0s, 800ms;
+  transition-delay: 0s, 800ms;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoDetail {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 1em;
+}
+
+.containerScreen .bodySection .contentBody .contentMain .videoDisplay .videoDetail .videoDetailLine {
+  background: white;
+  width: 5px;
+  height: 4em;
+  margin-right: 1em;
+}
+/*# sourceMappingURL=main.styles.css.map */
